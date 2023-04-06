@@ -29,7 +29,7 @@
             android:layout_height="56dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-
+            android:onClick="increaseScore"
             android:background="@drawable/transparent"
             android:contentDescription="@string/plus1"
             app:srcCompat="@drawable/ic_plus" />
@@ -42,7 +42,8 @@
             android:layout_centerVertical="true"
             android:background="@drawable/transparent"
             android:contentDescription="@string/minus1"
-            app:srcCompat="@drawable/ic_minus" />
+            app:srcCompat="@drawable/ic_minus"
+            android:onClick="decreaseScore"/>
 
         <TextView
             android:id="@+id/score_1"
@@ -77,7 +78,9 @@
             android:layout_centerVertical="true"
             android:background="@drawable/transparent"
             android:contentDescription="@string/plus2"
-            app:srcCompat="@drawable/ic_plus" />
+            app:srcCompat="@drawable/ic_plus"
+            android:onClick="increaseScore"
+            />
 
         <ImageButton
             android:id="@+id/decreaseTeam2"
@@ -87,7 +90,8 @@
             android:layout_centerVertical="true"
             android:background="@drawable/transparent"
             android:contentDescription="@string/minus2"
-            app:srcCompat="@drawable/ic_minus" />
+            app:srcCompat="@drawable/ic_minus"
+            android:onClick="decreaseScore"/>
 
         <TextView
             android:id="@+id/score_2"
