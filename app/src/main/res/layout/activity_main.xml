@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +20,8 @@
             android:layout_centerHorizontal="true"
             android:text="@string/tvTeam1"
             android:textSize="20sp"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/TeamText" />
 
         <ImageButton
             android:id="@+id/increaseTeam1"
@@ -29,10 +29,9 @@
             android:layout_height="@dimen/button_size"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/plus1"
             android:onClick="increaseScore"
-            app:srcCompat="@drawable/ic_plus" />
+            style="@style/PlusButtons"
+            />
 
         <ImageButton
             android:id="@+id/decreaseTeam1"
@@ -40,10 +39,9 @@
             android:layout_height="@dimen/button_size"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/minus1"
+            style="@style/MinusButtons"
             android:onClick="decreaseScore"
-            app:srcCompat="@drawable/ic_minus" />
+             />
 
         <TextView
             android:id="@+id/score_1"
@@ -52,7 +50,8 @@
             android:layout_centerInParent="true"
             android:text="@string/initial_count"
             android:textSize="20sp"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/ScoreText" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -68,7 +67,8 @@
             android:layout_centerHorizontal="true"
             android:text="@string/tvTeam2"
             android:textSize="20sp"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/TeamText" />
 
         <ImageButton
             android:id="@+id/increaseTeam2"
@@ -76,10 +76,9 @@
             android:layout_height="@dimen/button_size"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/plus2"
+            style="@style/PlusButtons"
             android:onClick="increaseScore"
-            app:srcCompat="@drawable/ic_plus" />
+            />
 
         <ImageButton
             android:id="@+id/decreaseTeam2"
@@ -87,10 +86,9 @@
             android:layout_height="@dimen/button_size"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/button_background"
-            android:contentDescription="@string/minus2"
+            style="@style/MinusButtons"
             android:onClick="decreaseScore"
-            app:srcCompat="@drawable/ic_minus" />
+            />
 
         <TextView
             android:id="@+id/score_2"
@@ -99,6 +97,7 @@
             android:layout_centerInParent="true"
             android:text="@string/initial_count"
             android:textSize="20sp"
-            tools:ignore="RelativeOverlap" />
+            tools:ignore="RelativeOverlap"
+            style="@style/ScoreText" />
     </RelativeLayout>
 </LinearLayout>
