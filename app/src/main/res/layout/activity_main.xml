@@ -14,14 +14,15 @@
 
         <TextView
             android:id="@+id/team1"
+            style="@style/TeamText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
             android:text="@string/tvTeam1"
-            android:textSize="20sp"
-            tools:ignore="RelativeOverlap"
-            style="@style/TeamText" />
+            android:textSize="34sp"
+            tools:ignore="RelativeOverlap" />
 
         <ImageButton
             android:id="@+id/increaseTeam1"
@@ -45,13 +46,13 @@
 
         <TextView
             android:id="@+id/score_1"
+            style="@style/ScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/initial_count"
-            android:textSize="20sp"
-            tools:ignore="RelativeOverlap"
-            style="@style/ScoreText" />
+            android:textSize="34sp"
+            tools:ignore="RelativeOverlap" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -61,14 +62,15 @@
 
         <TextView
             android:id="@+id/team2"
+            style="@style/TeamText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
             android:text="@string/tvTeam2"
-            android:textSize="20sp"
-            tools:ignore="RelativeOverlap"
-            style="@style/TeamText" />
+            android:textSize="34sp"
+            tools:ignore="RelativeOverlap" />
 
         <ImageButton
             android:id="@+id/increaseTeam2"
@@ -92,12 +94,12 @@
 
         <TextView
             android:id="@+id/score_2"
+            style="@style/ScoreText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="@string/initial_count"
-            android:textSize="20sp"
-            tools:ignore="RelativeOverlap"
-            style="@style/ScoreText" />
+            android:textSize="34sp"
+            tools:ignore="RelativeOverlap" />
     </RelativeLayout>
 </LinearLayout>
