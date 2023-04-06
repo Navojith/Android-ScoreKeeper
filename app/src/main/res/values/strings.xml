@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ScoreKeeper</string>
+    <string name="tvTeam1">Team 1</string>
+    <string name="tvTeam2">Team 2</string>
+    <string name="plus1">Team 1 Plus</string>
+    <string name="minus1">Team 1 Minus</string>
+    <string name="plus2">Team 2 Plus</string>
+    <string name="minus2">Team 2 Minus</string>
+    <string name="initial_count">0</string>
 </resources>
